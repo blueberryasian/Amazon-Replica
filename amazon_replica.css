@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in {
+    width: 296px;
+    height: 240px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+
+}
+
+.sign-in h1{
+    font-weight:400;
+    font-size: 28px;
+}
+
+.sign-in label{
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.sign-in input{
+    width:272px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.sign-in button{
+    width:288px;
+    height: 31px;
+    margin-top: 15px;
+    background-color: rgba(255, 199, 15, 0.514);
+    border-top-color: lightgrey;
+    background-image: solid yellow;
+    border-radius: 3px;
+}
+
+.sign-in p.sign-in p a{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+.sign-in a{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.icon::before{
+    display: inline-block;
+    content: "";
+    border-top:  4px;
+    border-left: 4px solid lightgray ;
+    border-bottom: 4px;
+    margin-right: 10px;
+}
+
+.password{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.sign-up p{
+    line-height: 1;
+    font-size: 12px;
+    columns: rgb(78, 76, 76);
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+}
+
+.sign-up, .create{
+    display: flex;
+    justify-content: center;
+
+}
+
+.sign-up::before,.sign-up::after{
+    content:"" ;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 120px;
+    border-top: 1px solid white;
+}
+
+.create button{
+    width: 348px;
+    height: 31px;
+    margin: 35px auto;
+    background-color: white;
+    background-image:rgb(255, 255, 255) ;
+    border: 1px solid lightgrey;
+    border-top-color: lightgrey;
+    border-radius: 3px;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px auto 15px auto;
+}
+
+footer .links a{
+    font-size: 17px;
+}
+
+footer::before{
+    content: "";
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    margin-top: -35px; 
+    border-top: 1px;
+    box-shadow: 0 10px 15px -20px rgb(3, 3, 3);
+}
+
+footer p{
+    font-size: 11px;
+    color: rgb(5, 5, 5);
+     text-align: center;
+}
